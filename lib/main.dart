@@ -81,9 +81,9 @@ class _MyHomePageState extends State<MyHomePage> {
               maxHeight: maxHeight,
               imageQuality: quality);
           setState(() {});
-          String  accessKey = "AKIASFOAT4D77UCVKZBZ",
-              secretKey = "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",
-              region    = "ap-south-1" ;
+          String  accessKey = "",
+              secretKey = "",
+              region    = "" ;
 
           RekognitionHandler rekognition = new RekognitionHandler(accessKey, secretKey, region);
           String labelsArray = await rekognition.compareFaces(_imageFile , _imageFile);

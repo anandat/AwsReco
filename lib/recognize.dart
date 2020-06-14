@@ -14,9 +14,9 @@ class Recognize extends StatefulWidget {
 
 class RecognizeState extends State<Recognize> {
   RekognitionHandler rekognitionHandler = RekognitionHandler(
-      "AKIASFOAT4D77UCVKZBZ",
-      "lYf5WpwuxpHKlkHNVTxtq+0RPTIba/zNln/kNfaO",
-      "ap-south-1");
+      "",
+      "",
+      "");
   File setImage;
   CelebrityFacesModel celebrityFacesModel;
   List<dynamic> data;
