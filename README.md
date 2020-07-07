@@ -1,6 +1,7 @@
-# image_picker_example
+# image RekognitionService AWS
 
-Demonstrates how to use the image_picker plugin.
+image RekognitionService AWS
+
 
 ## Getting Started
 
